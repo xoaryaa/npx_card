@@ -16,13 +16,20 @@ const questions = [
     {
         type: "list",
         name: "action",
-        message: "What you want to do?",
+        message: "What do you want to do?",
         choices: [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
                     open("mailto:arya.tayshete72@gmail.com");
                     console.log("\nDone, see you soon at inbox.\n");
+                }
+            },
+            {
+                name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
+                value: () => {
+                    open('https://drive.google.com/file/d/1g1MxLGW5Jldl1CbeF0QEKBqKYttAjRU6/view?usp=sharing');  
+                    console.log("\nSee you with my projects.\n");
                 }
             },
             {
@@ -59,7 +66,7 @@ const me = boxen(
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.italic("I am currently looking for new opportunities,")}`,
-        `${chalk.italic("my inbox is always open. Whether you have a")}`,
+        `${chalk.italic("My inbox is always open. Whether you have a")}`,
         `${chalk.italic("question or just want to say hi, I will try ")}`,
         `${chalk.italic("my best to get back to you!")}`
     ].join("\n"),
