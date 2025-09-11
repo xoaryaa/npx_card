@@ -1,8 +1,5 @@
 # npx card
 
-![npm version](https://img.shields.io/npm/v/xoaryaa)
-![license](https://img.shields.io/npm/l/xoaryaa)
-![open issues](https://img.shields.io/github/issues/xoaryaa/npx_card)
 
 ## Overview
 
@@ -35,3 +32,4 @@ npm install
 
 ### Make your changes and submit a pull request!
 <img src="npx.gif" width="1000"  />
+
