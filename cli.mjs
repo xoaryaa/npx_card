@@ -21,14 +21,14 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:arya.tayshete72@gmail.com");
+                    open("mailto:avtayshete_b21@et.vjti.ac.in");
                     console.log("\nDone, see you soon at inbox.\n");
                 }
             },
             {
                 name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
                 value: () => {
-                    open('https://drive.google.com/file/d/1g1MxLGW5Jldl1CbeF0QEKBqKYttAjRU6/view?usp=sharing');  
+                    open('https://drive.google.com/drive/u/0/folders/1vssfNuP3SoSaIj1jQFiWeCMjpffw1N9P');  
                     console.log("\nSee you with my projects.\n");
                 }
             },
@@ -45,7 +45,7 @@ const questions = [
 const data = {
     name: chalk.bold.green("Arya Tayshete"),
     handle: chalk.white("@xoaryaa"),
-    instagram: chalk.gray("https://instagram.com/") + chalk.cyan("aryataryatarya"),
+    instagram: chalk.gray("https://instagram.com/") + chalk.cyan("aryatayshete"),
     github: chalk.gray("https://github.com/") + chalk.green("xoaryaa"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("arya-tayshete"),
     npx: chalk.red("npx") + " " + chalk.white("xoaryaa"),
