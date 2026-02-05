@@ -28,7 +28,7 @@ const questions = [
             {
                 name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
                 value: () => {
-                    open('https://drive.google.com/file/d/169pqOT8gwWSpWZ9rUyzUi1uAPm0lrkcU/view?usp=sharing');  
+                    open('https://drive.google.com/file/d/1m623b06gHLwGK7PtqCJy6U9g_KpfWYXM/view?usp=sharing');  
                     console.log("\nSee you with my projects.\n");
                 }
             },

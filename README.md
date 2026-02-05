@@ -3,13 +3,13 @@
 
 ## Overview
 
-`xoaryaa` is an interactive business card in the form of a Node.js CLI tool. By simply running `npx xoaryaa` in any terminal with Node.js installed, users can instantly access my professional information. This project is open source and encourages contributions from the developer community.
+`xoaryaa` is an interactive business card in the form of a Node.js CLI tool. By simply running `npx xoaryaa` in any terminal with Node.js installed, users can instantly access my professional information. 
 
 ## Features
 
 - Displays my contact information, social media profiles, and other relevant details.
 - Simple to use: Just run `npx xoaryaa` in any terminal.
-- Open source: Contributions are welcome!
+
 
 ## If you’d like to contribute to this project, follow these steps:
 1. Clone the repository
@@ -30,7 +30,6 @@ cd xoaryaa
 npm install
 ```
 
-### Make your changes and submit a pull request!
 <img src="npx.gif" width="1000"  />
 
 ### Credits
