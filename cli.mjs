@@ -21,14 +21,14 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:avtayshete_b21@et.vjti.ac.in");
+                    open("mailto:at7358@nyu.edu");
                     console.log("\nDone, see you soon at inbox.\n");
                 }
             },
             {
                 name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
                 value: () => {
-                    open('https://drive.google.com/file/d/1m623b06gHLwGK7PtqCJy6U9g_KpfWYXM/view?usp=sharing');  
+                    open('https://xoaryaa.github.io/resume.pdf');
                     console.log("\nSee you with my projects.\n");
                 }
             },
@@ -45,6 +45,8 @@ const questions = [
 const data = {
     name: chalk.bold.green("Arya Tayshete"),
     handle: chalk.white("@xoaryaa"),
+    title: chalk.white("M.S. Computer Engineering @ NYU Tandon"),
+    focus: chalk.white("Computer architecture · GPUs · ML systems"),
     instagram: chalk.gray("https://instagram.com/") + chalk.cyan("aryatayshete"),
     github: chalk.gray("https://github.com/") + chalk.green("xoaryaa"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("arya-tayshete"),
@@ -58,6 +60,8 @@ const data = {
 const me = boxen(
     [
         `${data.name}`,
+        `${data.title}`,
+        `${data.focus}`,
         ``,
         `${data.labelInstagram}  ${data.instagram}`,
         `${data.labelGitHub}  ${data.github}`,
@@ -65,10 +69,10 @@ const me = boxen(
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
-        `${chalk.italic("I am currently looking for new opportunities,")}`,
-        `${chalk.italic("My inbox is always open. Whether you have a")}`,
-        `${chalk.italic("question or just want to say hi, I will try ")}`,
-        `${chalk.italic("my best to get back to you!")}`
+        `${chalk.italic("I'm looking for Summer 2027 internships in")}`,
+        `${chalk.italic("computer architecture and GPU performance.")}`,
+        `${chalk.italic("My inbox is always open, whether you have a")}`,
+        `${chalk.italic("question or just want to say hi!")}`
     ].join("\n"),
     {
         margin: 1,
