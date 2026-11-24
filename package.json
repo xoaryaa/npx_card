@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "main": "index.js",
   "bin": {
-    "xoaryaa": "./cli.mjs"
+    "xoaryaa": "cli.mjs"
   },
   "scripts": {
     "test": "node cli.mjs",
@@ -30,5 +30,10 @@
     "ora": "^8.0.1",
     "prettyjson": "^1.2.5",
     "request": "^2.88.2"
-  }
+  },
+  "files": [
+    "cli.mjs",
+    "index.js",
+    "lib"
+  ]
 }
